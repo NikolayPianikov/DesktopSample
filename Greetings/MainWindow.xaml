@@ -1,0 +1,17 @@
+﻿<Window x:Class="Greetings.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Greetings"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="408">
+    <StackPanel>
+        <StackPanel Orientation="Horizontal">
+            <Label Content="Name:" Width="100"/>
+            <TextBox Text="" Name="name" Width="200" />
+            <Button Content="Say hello" Width="100" Click="Button_Click" />
+        </StackPanel>
+        <Label Content="" Name="result" />
+    </StackPanel>
+</Window>
